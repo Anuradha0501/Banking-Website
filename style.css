@@ -5,10 +5,11 @@
 body
 {
 	font-family:sans-serif;
+
 }
 #nav-bar
 {
-	background-color:#425886;
+	background-color:black;
 	top:0;
 	z-index:10;
 	float: right;
@@ -50,9 +51,9 @@ text-align:left;
 #main
 {
 	text-align: left;
-background-color:#425886;
+background-color:black;
 color:#fff;
-padding-top:2%;	
+
 }
 .container h1 img{
 	padding-bottom: 10px;
@@ -68,7 +69,15 @@ padding-top:2%;
  #features
  {
      text-align: left;
-	 padding: 10% 20%; background-color:#B0ECE8;
+	 padding: 10% 20%;
+	background-image: url(download.jpg);
+	background-attachment: fixed;
+	height: 100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 	
  }
  .features1 h3
@@ -139,8 +148,9 @@ padding-top:2%;
 
 /* footer */
 #footer{
-	background-color:#425886;
-    color:#fff;
-    padding: 1% ;
+	background-color:black;
+    color:white;
+    padding: 1%;
+    
     text-align: center;
 }
