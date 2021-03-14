@@ -5,8 +5,8 @@
 
 #nav-bar
 {
-	background-color:#425886;
-	position: sticky;
+	background-color:black;
+	
 	top:0;
 	z-index:10;
 	float: right;
@@ -33,7 +33,16 @@ text-align:left;
     color: #CCCFFF!important;
     
 }
+#main1
+{
+    text-align: left;
+    background-color:black;
+    color:white;
 
+}
+.container1 h1 img{
+    padding-bottom: 20px;
+}
 .nav-link{
     float: right;
     color: #425886!important;
@@ -47,7 +56,8 @@ text-align:left;
 #main
 {
 	text-align: center;
-background-color:#B0ECE8;
+    background-color:lightgreen;
+    padding-top: 10px;
 }
 .my-info{
     padding: 2rem 5rem;
@@ -55,7 +65,7 @@ background-color:#B0ECE8;
 
 .btn-info{
     padding: 1rem 1.2rem;
-    background-color:#425886!important;
+    background-color:#708090!important;
     color: #fff!important;
     margin-left: 5px;
     padding: 0.75rem;
